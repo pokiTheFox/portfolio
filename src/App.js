@@ -2,6 +2,9 @@
 import React, { Component } from 'react';
 import { Document, Page, pdfjs } from "react-pdf";
 import samplePDF from  './test.pdf';
+import SinglePagePDFViewer from "./single-page";
+import AllPagesPDFViewer from "./all-pages";
+
 
 
 class App extends Component {
@@ -12,17 +15,18 @@ class App extends Component {
     super(props);
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
     // Creating state
-    this.state = {
-      data: 'My name is User'
-    }
   }
   
   
   render() {
     return (
-  <Document file={samplePDF}>
-      <Page pageNumber={1} />
-    </Document>
+      <div className="App">
+
+      <div className="all-page-container">
+        <AllPagesPDFViewer pdf={samplePDF} />
+      </div>
+
+    </div>
 
     );
   }
