@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import samplePDF from  './test.pdf';
-import SinglePagePDFViewer from "./single-page";
+
 import AllPagesPDFViewer from "./all-pages";
 
 
