@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App" >
 
       <div className="all-page-container">
-        <AllPagesPDFViewer pdf={samplePDF} style={{display: 'flex', justifyContent:'center'}}/>
+        <AllPagesPDFViewer pdf={samplePDF}/>
       </div>
 
     </div>
