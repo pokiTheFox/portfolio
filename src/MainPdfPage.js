@@ -4,6 +4,7 @@ import { pdfjs } from "react-pdf";
 import samplePDF from  './folio.pdf';
 
 import AllPagesPDFViewer from "./all-pages";
+import 'react-pdf/dist/Page/TextLayer.css'
 
 
 
