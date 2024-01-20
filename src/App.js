@@ -17,7 +17,7 @@ class App extends Component {
       <Routes>
       <Route exact path="/" element={<MainPdfPage />} />
       <Route exact path="/project1" element={<Project1 />} />
-      <Route exact path="/project2" element={<MainPdfPage />} />
+      <Route exact path="/project3" element={<MainPdfPage />} />
       </Routes>
     </BrowserRouter>
     );
