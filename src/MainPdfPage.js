@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import { pdfjs } from "react-pdf";
-import samplePDF from  './folio.pdf';
+import samplePDF from  './Portfolio_PS-short01.pdf';
 
 import AllPagesPDFViewer from "./all-pages";
 import 'react-pdf/dist/Page/TextLayer.css'
